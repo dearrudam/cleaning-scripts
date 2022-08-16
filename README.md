@@ -1,1 +1,1 @@
-# cleaning-scripts
+# cleaning-scripts for TDC Business 2022 - SP hands-on
