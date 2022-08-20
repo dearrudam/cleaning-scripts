@@ -43,9 +43,6 @@ else
     # installing Intellij IDEA Community
     sudo snap install intellij-idea-community --classic
 
-    # installing Eclipse
-    sudo snap install eclipse --classic
-
     echo "alias remove-stk='sh ${PWD}/uninstall-stk.sh'" >> $HOME/.bash_aliases && source $HOME/.bash_aliases 
 
 fi
