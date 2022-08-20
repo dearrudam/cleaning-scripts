@@ -28,8 +28,12 @@ else
     . ./setup-nvm.sh
     # installing SDKMAN to install JVM distributions
     . ./setup-java.sh
+    # installing pip for Python
+    . ./setup-pip.sh
+
     # installing Docker
     . ./setup-docker.sh
+
 
 
     # installing VSCODE
