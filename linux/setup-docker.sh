@@ -29,6 +29,8 @@ sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-compose-plu
 
 sudo docker run hello-world
 
+sudo chown "$USER":"$USER" /var/run/docker.sock -R
+
 sudo chown "$USER":"$USER" /home/"$USER"/.docker -R
 
 sudo chmod g+rwx "$HOME/.docker" -R
