@@ -14,7 +14,7 @@ alias python='python3'
 
 sudo apt-get install -y python3-pytest
 
-alias pytest='pytest3'
+alias pytest='pytest-3'
 
 pytest --version
 
