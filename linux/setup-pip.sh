@@ -11,13 +11,13 @@ echo "source \$HOME/.poetry/env" >> $HOME/.bashrc
 
 poetry --version
 
-echo "alias python='python3'" >> $HOME/bash_aliases
+echo "alias python='python3'" >> $HOME/.bash_aliases
 
 sudo apt-get install -y python3-pytest
 
-echo "alias pytest='pytest-3'" >> $HOME/bash_aliases
+echo "alias pytest='pytest-3'" >> $HOME/.bash_aliases
 
-source $HOME/bashrc
+source $HOME/.bashrc
 
 pytest --version
 
