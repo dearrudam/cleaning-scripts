@@ -28,6 +28,9 @@ else
     . ./setup-nvm.sh
     # installing SDKMAN to install JVM distributions
     . ./setup-java.sh
+    # installing Docker
+    . ./setup-docker.sh
+
 
     # installing VSCODE
     # sudo apt-get install wget gpg
