@@ -6,6 +6,8 @@ curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poet
 
 source $HOME/.poetry/env
 
+echo "" >> $HOME/.bashrc
+
 poetry --version
 
 alias python='python3'
