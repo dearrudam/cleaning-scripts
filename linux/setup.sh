@@ -22,6 +22,8 @@ else
             dotnet-runtime-6.0
 
 
+    # setup GIT locally
+    . ./setup-git.sh
     # installing NVM to manage NPM installations
     . ./setup-nvm.sh
     # installing SDKMAN to install JVM distributions
