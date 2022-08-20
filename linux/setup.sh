@@ -44,6 +44,6 @@ else
     # installing Eclipse
     sudo snap install eclipse --classic
 
-    echo "alias remove-stk='${PWD}/uninstall-stk.sh'" >> $HOME/.bash_aliases && source $HOME/.bash_aliases 
+    echo "alias remove-stk='sh ${PWD}/uninstall-stk.sh'" >> $HOME/.bash_aliases && source $HOME/.bash_aliases 
 
 fi
