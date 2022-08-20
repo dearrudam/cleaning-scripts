@@ -12,5 +12,6 @@ poetry --version
 
 alias python='python3'
 
-pip install -U pytest
+sudo apt-get install -y python3-pytest
+
 pytest --version
