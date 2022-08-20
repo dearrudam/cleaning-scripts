@@ -23,20 +23,9 @@ else
 
 
     # installing NVM to manage NPM installations
-    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash 
-    nvm install v14
-    nvm ls
-    npm install --global yarn
-
-    # installing YARN
-    yarn --version
-
+    . ./setup-nvm.sh
     # installing SDKMAN to install JVM distributions
-    curl -s "https://get.sdkman.io" | bash 
-
-    sdk install java
-
-    java -version
+    . ./setup-java.sh
 
     # installing VSCODE
     # sudo apt-get install wget gpg
